@@ -1,14 +1,12 @@
 <?php 
-    $numeroDoFuncionario = fgets(STDIN);
-    $qntdHorasTrabalhadas = fgets(STDIN);
-    $valorPorHora = fgets(STDIN);
-
-    $numeroDoFuncionario = 6;
-    $qntdHorasTrabalhadas = 145;
-    $valorPorHora = 15.55;
+    $numeroDoFuncionario = trim(fgets(STDIN));
+    $qntdHorasTrabalhadas = trim(fgets(STDIN));
+    $valorPorHora = trim(fgets(STDIN));
 
     $salario = $qntdHorasTrabalhadas * $valorPorHora;
     $salario = number_format($salario,2,'.','');
-    echo "\nNUMBER = {$numeroDoFuncionario}\n";
-    echo "\nSALARY = U$ {$salario}\n";
+    echo "NUMBER = {$numeroDoFuncionario}\n";
+    echo "SALARY = U$ {$salario}\n";
+
+    // trim — Retira espaço no início e final de uma string
 ?>
