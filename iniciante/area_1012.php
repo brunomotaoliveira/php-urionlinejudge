@@ -5,6 +5,10 @@ $valorB = floatval($valores[1]);
 $valorC = floatval($valores[2]);
 const VALORDOPI = 3.14159; // php possui o pi. Porém é necessario utilizar o que o exercicio solicita. Criando assim uma constante para armazenar o valor de PI
 
+$valorA = 3.0;
+$valorB = 4.0;
+$valorC = 5.2;
+
 // area do triangulo retangulo => area = (base * altura) /2
 $areaDoTrianguloRetangulo = ($valorA * $valorC) / 2;
 $areaDoCirculo = ($valorC ** 2) * VALORDOPI;
@@ -23,10 +27,10 @@ $areaDoQuadrado = number_format($areaDoQuadrado,3,'.','');
 $areaDoRetangulo = number_format($areaDoRetangulo,3,'.','');
 
 //imprimindo os resultados
-echo "TRIANGULO: {$areaDoTrianguloRetangulo}";
-echo "CIRCULO: {$areaDoCirculo}";
-echo "TRAPEZIO: {$areaDoTrapezio}";
-echo "QUADRADO: {$areaDoQuadrado}";
-echo "RETANGULO: {$areaDoRetangulo}";
+echo "TRIANGULO: {$areaDoTrianguloRetangulo}\n";
+echo "CIRCULO: {$areaDoCirculo}\n";
+echo "TRAPEZIO: {$areaDoTrapezio}\n";
+echo "QUADRADO: {$areaDoQuadrado}\n";
+echo "RETANGULO: {$areaDoRetangulo}\n";
 
 ?>
