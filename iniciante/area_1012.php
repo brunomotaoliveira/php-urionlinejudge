@@ -5,9 +5,9 @@ $valorB = floatval($valores[1]);
 $valorC = floatval($valores[2]);
 const VALORDOPI = 3.14159; // php possui o pi. Porém é necessario utilizar o que o exercicio solicita. Criando assim uma constante para armazenar o valor de PI
 
-$valorA = 3.0;
-$valorB = 4.0;
-$valorC = 5.2;
+//$valorA = 3.0;  => valor de teste
+//$valorB = 4.0; => valor de teste
+//$valorC = 5.2; => valor de teste
 
 // area do triangulo retangulo => area = (base * altura) /2
 $areaDoTrianguloRetangulo = ($valorA * $valorC) / 2;
